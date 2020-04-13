@@ -69,7 +69,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'preservim/nerdtree'
 Plug 'vimwiki/vimwiki'
 Plug 'vim-airline/vim-airline'
-
+call plug#end()
 
 "NERDTree config
 map <C-n> :NERDTreeToggle<CR>
